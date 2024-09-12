@@ -135,7 +135,7 @@
                 </div>
             </div>
             <div class="project">
-                <img src="omni_rover.jpg" alt="Omni Directional Rover" class="project-image">
+                <img src="Rover.jpg" alt="Omni Directional Rover" class="project-image">
                 <div class="project-info">
                     <h3>Omni Directional Rover</h3>
                     <p>Designed and developed a custom power and control board. Programmed R-Pi and Arm Cortex M4 microcontroller to control a 5-DOF arm on an omnidirectional base. Computed inverse kinematics and displayed real-time simulation via ROS.</p>
