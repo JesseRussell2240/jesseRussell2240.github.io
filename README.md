@@ -141,7 +141,7 @@
                 </div>
             </div>
             <div class="project">
-                <img src="audio_amplifier.jpg" alt="Class AB Audio Amplifier" class="project-image">
+                <img src="AAicon.jpg" alt="Class AB Audio Amplifier" class="project-image">
                 <div class="project-info">
                     <h3>Class AB Audio Amplifier</h3>
                     <p>Built and fine-tuned a high-quality Class AB audio amplifier for personal use, balancing sound clarity and power efficiency with precision circuitry.</p>
