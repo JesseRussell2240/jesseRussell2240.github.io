@@ -123,7 +123,7 @@
                 <img src="1971-911.jpg" alt="Classic Car Restoration" class="project-image">
                 <div class="project-info">
                     <h3>Classic Car Restoration</h3>
-                    <p>Passion for rebuilding and restoring classic automobiles. Engine tuning, bodywork, and mechanical restoration using advanced techniques and tools.</p>
+                    <p>Passion for rebuilding and restoring classic automobiles. Mechanical restoration using advanced techniques and tools. From rebuilding engines and transmissions to interior restoration, my passion for automobiles occupies many weekend!</p>
                 </div>
             </div>
             <div class="project">
