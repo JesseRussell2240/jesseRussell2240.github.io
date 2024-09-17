@@ -120,14 +120,14 @@
         <div class="container">
             <h2>Projects</h2>
             <div class="project">
-                <img src="classic_car.jpg" alt="Classic Car Restoration" class="project-image">
+                <img src="1971-911.jpg" alt="Classic Car Restoration" class="project-image">
                 <div class="project-info">
                     <h3>Classic Car Restoration</h3>
                     <p>Passion for rebuilding and restoring classic automobiles. Engine tuning, bodywork, and mechanical restoration using advanced techniques and tools.</p>
                 </div>
             </div>
             <div class="project">
-                <img src="multimeter.jpg" alt="Custom Multimeter" class="project-image">
+                <img src="MM.jpg" alt="Custom Multimeter" class="project-image">
                 <div class="project-info">
                     <h3>Custom Multimeter</h3>
                     <p>Designed and developed a custom multimeter for electronics testing. Features precise measurement capabilities and ease of use for various testing conditions.</p>
