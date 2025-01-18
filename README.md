@@ -128,11 +128,13 @@
     </section>
 
 <section id="projects">
+     <h2>Projects</h2>
+    <h3>AI powerd self driving car</h3>
     <div class="container">
         <!-- Embedded LinkedIn Post -->
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7275914142765522947?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
-        <h2>Projects</h2>
+        
         <div class="project">
             <img src="1971-911.jpg" alt="Classic Car Restoration" class="project-image">
             <div class="project-info">
