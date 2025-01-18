@@ -116,39 +116,43 @@
         </div>
     </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <img src="1971-911.jpg" alt="Classic Car Restoration" class="project-image">
-                <div class="project-info">
-                    <h3>Classic Car Restoration</h3>
-                    <p>Passion for rebuilding and restoring classic automobiles. Mechanical restoration using advanced techniques and tools. From rebuilding engines and transmissions to interior restoration, my passion for automobiles occupies many weekend!</p>
-                </div>
-            </div>
-            <div class="project">
-                <img src="MM.jpg" alt="Custom Multimeter" class="project-image">
-                <div class="project-info">
-                    <h3>Custom Multimeter</h3>
-                    <p>Designed and developed a custom multimeter for electronics testing. Features precise measurement capabilities and ease of use for various testing conditions.</p>
-                </div>
-            </div>
-            <div class="project">
-                <img src="Rover.jpg" alt="Omni Directional Rover" class="project-image">
-                <div class="project-info">
-                    <h3>Omni Directional Rover</h3>
-                    <p>Designed and developed a custom power and control board. Programmed R-Pi and Arm Cortex M4 microcontroller to control a 5-DOF arm on an omnidirectional base. Computed inverse kinematics and displayed real-time simulation via ROS.</p>
-                </div>
-            </div>
-            <div class="project">
-                <img src="AudioAmp.jpg" alt="Class AB Audio Amplifier" class="project-image">
-                <div class="project-info">
-                    <h3>Class AB Audio Amplifier</h3>
-                    <p>Built and fine-tuned a high-quality Class AB audio amplifier for personal use, balancing sound clarity and power efficiency with precision circuitry.</p>
-                </div>
+<section id="projects">
+    <div class="container">
+        <!-- Embedded LinkedIn Post -->
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7275914142765522947?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="1971-911.jpg" alt="Classic Car Restoration" class="project-image">
+            <div class="project-info">
+                <h3>Classic Car Restoration</h3>
+                <p>Passion for rebuilding and restoring classic automobiles. Mechanical restoration using advanced techniques and tools. From rebuilding engines and transmissions to interior restoration, my passion for automobiles occupies many weekend!</p>
             </div>
         </div>
-    </section>
+        <div class="project">
+            <img src="MM.jpg" alt="Custom Multimeter" class="project-image">
+            <div class="project-info">
+                <h3>Custom Multimeter</h3>
+                <p>Designed and developed a custom multimeter for electronics testing. Features precise measurement capabilities and ease of use for various testing conditions.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="Rover.jpg" alt="Omni Directional Rover" class="project-image">
+            <div class="project-info">
+                <h3>Omni Directional Rover</h3>
+                <p>Designed and developed a custom power and control board. Programmed R-Pi and Arm Cortex M4 microcontroller to control a 5-DOF arm on an omnidirectional base. Computed inverse kinematics and displayed real-time simulation via ROS.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="AudioAmp.jpg" alt="Class AB Audio Amplifier" class="project-image">
+            <div class="project-info">
+                <h3>Class AB Audio Amplifier</h3>
+                <p>Built and fine-tuned a high-quality Class AB audio amplifier for personal use, balancing sound clarity and power efficiency with precision circuitry.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 
     <section id="gallery">
         <div class="container">
