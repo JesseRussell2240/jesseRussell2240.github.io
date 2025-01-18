@@ -94,7 +94,7 @@
             <h2>Education</h2>
             <div class="education">
                 <h3>Bachelor of Engineering, Electronic Systems Engineering</h3>
-                <p><strong>Conestoga College</strong>, 2022 - 2024</p>
+                <p><strong>Conestoga College</strong>, 2022 - 2026</p>
                 <ul>
                     <li>3rd Year engineering student graduating summer 2026</li>
                     <li>Focused on circuit design, microcontroller programming, and communication systems with real-world application in projects.</li>
