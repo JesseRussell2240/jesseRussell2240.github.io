@@ -25,6 +25,17 @@
     <section id="experience">
         <div class="container">
             <h2>Experience</h2>
+            <h3>Electrical Engineering Intern</h3>
+                <p><strong>Norbec Architectural</strong>, 2024 - Present</p>
+                <ul>
+                    <li>Designed custom embeded devices to report facility metrics to central database via REST API</li>
+                    <li>Implemented various dashboards to monitor facility health through meters, and better inform decission making Implmented SBC to report tag values from to central database via Profinet.</li>
+                    <li>Assisted to tracking WBS, critical path and milestones as part of Norbecs project managment plan via JIRA.</li>
+                    <li>Oversaw electrical planning for capital projects, coordinated with trades, completed various levels of inspections.</li>
+                    <li>Used JIRA to assist in project management tasks of several sub-projects.</li>
+                    <li>Assisted in Process Safety and Hazard Review (PSHR) and lockout procedures for interlocked systems.</li>
+                    <li>Completed DSD documents and IS wiring analysis; supported multiple Electrical Safety Authority (ESA) inspections in hazardous locations.</li>
+                </ul>
             <div class="experience">
                 <h3>Engineering Intern</h3>
                 <p><strong>Norbec Architectural</strong>, 2024 - Present</p>
