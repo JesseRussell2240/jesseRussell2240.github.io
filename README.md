@@ -26,7 +26,7 @@
         <div class="container">
             <h2>Experience</h2>
             <h3>Electrical Engineering Intern</h3>
-                <p><strong>Norbec Architectural</strong>, 2024 - Present</p>
+                <p><strong>Norbec Architectural</strong>, 2025 - Present</p>
                 <ul>
                     <li>Designed custom embeded devices to report facility metrics to central database via REST API</li>
                     <li>Implemented various dashboards to monitor facility health through meters, and better inform decission making Implmented SBC to report tag values from to central database via Profinet.</li>
@@ -38,7 +38,7 @@
                 </ul>
             <div class="experience">
                 <h3>Engineering Intern</h3>
-                <p><strong>Norbec Architectural</strong>, 2024 - Present</p>
+                <p><strong>Norbec Architectural</strong>, 2024 - 2025</p>
                 <ul>
                     <li>Commissioned chemical unloading, storage, and delivery systems for new facility construction.</li>
                     <li>Collaborated with skilled trades to streamline facility launch and production processes.</li>
