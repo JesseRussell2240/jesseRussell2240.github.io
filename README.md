@@ -1,206 +1,371 @@
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jesse Russell - Engineering Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Jesse Russell - Engineering Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jesse Russell | Engineering Portfolio</title>
+    <meta
+      name="description"
+      content="Engineering portfolio: mechatronics, embedded systems, robotics, software, and hardware integration."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container header-grid">
+        <div>
+          <h1>Jesse Russell</h1>
+          <p class="subtitle">
+            Embedded Systems • Robotics • Mechatronics • Software
+          </p>
+          <p class="meta">
+            St. Marys, Ontario •
+            <a href="mailto:JessRuss256@gmail.com">JessRuss256@gmail.com</a>
+          </p>
+
+          <div class="cta-row">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="#experience">Experience</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/jesse-your-next-engineer" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="btn btn-ghost" href="https://github.com/JesseRussell2240" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
         </div>
+
+        <div class="summary-card">
+          <h2>Summary</h2>
+          <p>
+            Bachelor of Electronic Systems Engineering student at Conestoga College (graduating Sept 2026).
+            I build hardware and software for real systems: embedded devices, robotics platforms, and industrial controls.
+          </p>
+          <ul class="bullets">
+            <li>Embedded: STM32, Raspberry Pi, C++, Python, UART/I2C/SPI</li>
+            <li>Hardware: PCB design (Altium), power regulation, motor control, sensors</li>
+            <li>Software: C# APIs, SQL, web dashboards, CI/CD and team delivery</li>
+          </ul>
+        </div>
+      </div>
     </header>
 
-    <section id="experience">
-        <div class="container">
-            <h2>Experience</h2>
-            <h3>Electrical Engineering Intern</h3>
-                <p><strong>Norbec Architectural</strong>, 2025 - Present</p>
-                <ul>
-                    <li>Designed custom embeded devices to report facility metrics to central database via REST API</li>
-                    <li>Implemented various dashboards to monitor facility health through meters, and better inform decission making Implmented SBC to report tag values from to central database via Profinet.</li>
-                    <li>Assisted to tracking WBS, critical path and milestones as part of Norbecs project managment plan via JIRA.</li>
-                    <li>Oversaw electrical planning for capital projects, coordinated with trades, completed various levels of inspections.</li>
-                    <li>Used JIRA to assist in project management tasks of several sub-projects.</li>
-                    <li>Assisted in Process Safety and Hazard Review (PSHR) and lockout procedures for interlocked systems.</li>
-                    <li>Completed DSD documents and IS wiring analysis; supported multiple Electrical Safety Authority (ESA) inspections in hazardous locations.</li>
-                </ul>
-            <div class="experience">
-                <h3>Engineering Intern</h3>
-                <p><strong>Norbec Architectural</strong>, 2024 - 2025</p>
-                <ul>
-                    <li>Commissioned chemical unloading, storage, and delivery systems for new facility construction.</li>
-                    <li>Collaborated with skilled trades to streamline facility launch and production processes.</li>
-                    <li>Led trials and testing for IMP manufacturing lines.</li>
-                    <li>Implemented Computerized Maintenance Management Systems (CMMS) and Preventive Maintenance (PM) software.</li>
-                    <li>Used JIRA to assist in project management tasks of several sub-projects.</li>
-                    <li>Assisted in Process Safety and Hazard Review (PSHR) and lockout procedures for interlocked systems.</li>
-                    <li>Completed DSD documents and IS wiring analysis; supported multiple Electrical Safety Authority (ESA) inspections in hazardous locations.</li>
-                </ul>
-            </div>
-            <div class="experience">
-                <h3>Formula SAE Electric Team Manager</h3>
-                <p><strong>Conestoga College</strong>, 2022 - Present</p>
-                <ul>
-                    <li>Managed a team to build a gas-powered buggy conforming to SAE rules; led endurance testing.</li>
-                    <li>Spearheaded the design and development of an electric SAE race car, moving it from concept to fabrication.</li>
-                    <li>Mentored team members in design processes and collaboration strategies.</li>
-                </ul>
-            </div>
-            <div class="experience">
-                <h3>Engineering Support Coordinator</h3>
-                <p><strong>Arvin-Sango Canada</strong>, 2022 - 2024</p>
-                <ul>
-                    <li>Installed and maintained inventory management systems for tooling and parts during new line implementation.</li>
-                    <li>Rewired and reprogrammed Fanuc robots and updated PLC/HMI systems to accommodate new tasks while maintaining safety standards.</li>
-                    <li>Supported maintenance teams with diagnostics, troubleshooting, and repairs for various machines.</li>
-                    <li>Contributed to facility expansion plans, ensuring efficient project execution.</li>
-                </ul>
-            </div>
-            <div class="experience">
-                <h3>Damage Prevention Technician</h3>
-                <p><strong>G-Tel Engineering</strong>, 2018 - 2022</p>
-                <ul>
-                    <li>Led teams to produce as-built drawings for underground assets during capital projects.</li>
-                    <li>Performed root cause analysis and implemented preventative measures to ensure quality assurance (QA).</li>
-                    <li>Developed software to streamline data conversion and improve workflow efficiency.</li>
-                    <li>Collaborated with contractors to explore new contract strategies and improve service delivery.</li>
-                </ul>
-            </div>
-            <div class="experience">
-                <h3>Instructor/Apprentice</h3>
-                <p><strong>Honda Canada</strong>, 2015 - 2018</p>
-                <ul>
-                    <li>Trained individuals of various ages in equipment usage and safe practices.</li>
-                    <li>Represented Honda at tradeshows, handling setup, teardown, and equipment demonstrations.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+    <nav class="site-nav">
+      <div class="container nav-row">
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
 
-    <section id="education">
+    <main>
+      <section id="experience" class="section">
         <div class="container">
-            <h2>Education</h2>
-            <div class="education">
-                <h3>Bachelor of Engineering, Electronic Systems Engineering</h3>
-                <p><strong>Conestoga College</strong>, 2022 - 2026</p>
-                <ul>
-                    <li>3rd Year engineering student graduating summer 2026</li>
-                    <li>Focused on circuit design, microcontroller programming, and communication systems with real-world application in projects.</li>
-                    <li>Completed several projects involving embedded systems and neighboring fields.</li>
-                </ul>
-            </div>
-            <div class="education">
-                <h3>Bachelor of Science, Computer Science</h3>
-                <p><strong>Western University</strong>, 2017 - 2019</p>
-                <ul>
-                    <li>Programming (Python, Java, C++)</li>
-                    <li>Software engineering (SDLC, integration, testing)</li>
-                    <li>Introduction to German</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+          <h2>Experience</h2>
 
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming: C/C++, Java, Python</li>
-                <li>Software Development: OOP, PDLC, Algorithm Development</li>
-                <li>3D Modeling: SolidWorks</li>
-                <li>PCB Design: Altium</li>
-                <li>Automation & Control: PLC/HMI Programming</li>
-                <li>Tools: MS Office (Word, Excel, PowerPoint, Access, Project), Basic Machining (Mill/Lathe)</li>
+          <div class="card">
+            <div class="card-title-row">
+              <h3>Software Developer</h3>
+              <span class="pill">Dec 2025 – Present</span>
+            </div>
+            <p class="company">Powerhouse Controls Ltd</p>
+            <ul class="bullets">
+              <li>Contribute to Nexia, an AGV fleet management platform used in live industrial environments</li>
+              <li>Design and implement REST-based C# APIs integrated with SQL and MudBlazor UI</li>
+              <li>Improve real-time visibility and responsiveness using SignalR for live factory data/control feedback</li>
+              <li>Work in agile delivery using Azure DevOps, code reviews, CI/CD, and deployments</li>
             </ul>
-        </div>
-    </section>
+          </div>
 
-<section id="projects">
-     <h2>Projects</h2>
-    <h3>AI powerd self driving car</h3>
-    <div class="container">
-        <!-- Embedded LinkedIn Post -->
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7275914142765522947?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-
-        
-        <div class="project">
-            <img src="1971-911.jpg" alt="Classic Car Restoration" class="project-image">
-            <div class="project-info">
-                <h3>Classic Car Restoration</h3>
-                <p>Passion for rebuilding and restoring classic automobiles. Mechanical restoration using advanced techniques and tools. From rebuilding engines and transmissions to interior restoration, my passion for automobiles occupies many weekend!</p>
+          <div class="card">
+            <div class="card-title-row">
+              <h3>Control Systems Designer (Co-op)</h3>
+              <span class="pill">Sep 2025 – Dec 2025</span>
             </div>
+            <p class="company">Powerhouse Controls Ltd</p>
+            <ul class="bullets">
+              <li>Translate automation and operational requirements into reliable software-backed control solutions</li>
+              <li>Collaborate with controls engineers and operations teams to integrate software with factory automation</li>
+              <li>Support deployment and validation of control-related features in production environments</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="card-title-row">
+              <h3>Electrical Engineering Intern</h3>
+              <span class="pill">Dec 2024 – Sep 2025</span>
+            </div>
+            <p class="company">Norbec Architectural</p>
+            <ul class="bullets">
+              <li>Designed embedded devices to collect facility metrics and report data via REST APIs</li>
+              <li>Implemented SBC solutions to publish industrial tag data to centralized databases</li>
+              <li>Built dashboards for monitoring facility health and improving operational decision-making</li>
+              <li>Supported electrical planning for capital projects, inspections, and commissioning work</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="card-title-row">
+              <h3>Engineering Intern</h3>
+              <span class="pill">May 2024 – Dec 2024</span>
+            </div>
+            <p class="company">Norbec Architectural</p>
+            <ul class="bullets">
+              <li>Commissioned chemical unloading/storage/delivery systems for facility construction</li>
+              <li>Led trials and testing for manufacturing lines during production launch</li>
+              <li>Implemented CMMS and preventive maintenance systems</li>
+              <li>Supported PSHR work, lockout procedures, and ESA inspections in hazardous locations</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="card-title-row">
+              <h3>Formula SAE Electric Team Manager</h3>
+              <span class="pill">May 2023 – Present</span>
+            </div>
+            <p class="company">Conestoga College</p>
+            <ul class="bullets">
+              <li>Mentor team members in design processes and collaboration</li>
+              <li>Drive planning and execution to move an electric SAE car from concept to fabrication</li>
+            </ul>
+          </div>
+
+          <details class="details">
+            <summary>Earlier roles</summary>
+            <div class="card compact">
+              <h3>Engineering Support Coordinator <span class="pill">Oct 2022 – May 2024</span></h3>
+              <p class="company">Arvin-Sango Canada</p>
+              <ul class="bullets">
+                <li>Supported capital projects and rework of robots/PLC/HMI systems while maintaining safety standards</li>
+                <li>Diagnostics, troubleshooting, and repairs across production equipment</li>
+              </ul>
+            </div>
+
+            <div class="card compact">
+              <h3>Damage Prevention Technician <span class="pill">Apr 2019 – Sep 2022</span></h3>
+              <p class="company">G-Tel Engineering</p>
+              <ul class="bullets">
+                <li>Produced as-built drawings for underground assets and improved QA processes</li>
+                <li>Built software tools to streamline data conversion and improve workflow efficiency</li>
+              </ul>
+            </div>
+
+            <div class="card compact">
+              <h3>Instructor/Apprentice <span class="pill">2015 – 2018</span></h3>
+              <p class="company">Honda Canada</p>
+              <ul class="bullets">
+                <li>Trained users on equipment usage and safe practices, supported demonstrations and events</li>
+              </ul>
+            </div>
+          </details>
         </div>
-        <div class="project">
-            <img src="MM.jpg" alt="Custom Multimeter" class="project-image">
-            <div class="project-info">
+      </section>
+
+      <section id="education" class="section alt">
+        <div class="container">
+          <h2>Education</h2>
+
+          <div class="card">
+            <div class="card-title-row">
+              <h3>Bachelor of Engineering, Electronic Systems Engineering</h3>
+              <span class="pill">Sep 2022 – Mar 2026 (Grad: Sept 2026)</span>
+            </div>
+            <p class="company">Conestoga College</p>
+            <ul class="bullets">
+              <li>Focus: circuit design, embedded systems, communication systems, and real-world integration</li>
+              <li>Team experience: CubeSat design work and structured review mindset (CDR-style thinking)</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="card-title-row">
+              <h3>Bachelor of Science, Computer Science (Incomplete)</h3>
+              <span class="pill">2017 – 2019</span>
+            </div>
+            <p class="company">Western University</p>
+            <ul class="bullets">
+              <li>Programming: Python, Java, C++</li>
+              <li>Software engineering fundamentals: SDLC, testing, integration</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="grid-3">
+            <div class="card">
+              <h3>Embedded + Robotics</h3>
+              <ul class="bullets">
+                <li>STM32, Raspberry Pi, Arduino-class systems</li>
+                <li>Motor control, encoders, IMU, sensor integration</li>
+                <li>UART, I2C, SPI, GPIO</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Hardware</h3>
+              <ul class="bullets">
+                <li>PCB design: Altium</li>
+                <li>Power regulation, drivers, mixed-signal integration</li>
+                <li>SolidWorks CAD</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Software</h3>
+              <ul class="bullets">
+                <li>C#, SQL, REST APIs</li>
+                <li>Python, C++</li>
+                <li>Git, CI/CD, Azure DevOps</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section alt">
+        <div class="container">
+          <h2>Projects</h2>
+
+          <div class="project-grid">
+            <article class="project">
+              <img src="Rover.jpg" alt="R.I.V.A mobile robot platform" />
+              <div class="project-body">
+                <h3>R.I.V.A: Mobile Robot Platform with Arm</h3>
+                <p class="project-sub">
+                  Rover + 5-DOF arm designed in SolidWorks, simulated in ROS, controlled via Raspberry Pi + STM32.
+                </p>
+                <ul class="bullets">
+                  <li>Inverse kinematics and higher-level control on Raspberry Pi (Python)</li>
+                  <li>STM32 embedded motor control in C++ via UART</li>
+                  <li>Custom Altium PCBs: power regulation, motor drivers, control I/O</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="embed-wrap">
+                <iframe
+                  src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7275914142765522947?compact=1"
+                  allowfullscreen
+                  title="Funicular demo"
+                ></iframe>
+              </div>
+              <div class="project-body">
+                <h3>Funicular: AI-Powered Self-Driving Rover</h3>
+                <p class="project-sub">
+                  Real-time object detection and autonomous navigation using a Raspberry Pi + STM32 + AI accelerator.
+                </p>
+                <ul class="bullets">
+                  <li>YOLOv8 object detection trained on a custom dataset</li>
+                  <li>IMU + encoder fusion for navigation</li>
+                  <li>Flask web interface for live video and remote operation</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="project">
+              <img src="AAicon.jpg" alt="CubeSat team work" />
+              <div class="project-body">
+                <h3>Conestoga CubeSat Team</h3>
+                <p class="project-sub">
+                  Nanosatellite initiative work with design review discipline and mission-focused engineering decisions.
+                </p>
+                <ul class="bullets">
+                  <li>Design and review experience with a CDR-style mindset</li>
+                  <li>Engineering documentation, trade studies, and validation thinking</li>
+                </ul>
+                <div class="link-row">
+                  <a href="https://github.com/JesseRussell2240/CubeSat" target="_blank" rel="noreferrer">Repo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project">
+              <img src="AAPCB.jpg.heic" alt="MaintainX PLC integration system" />
+              <div class="project-body">
+                <h3>MaintainX PLC Integration System</h3>
+                <p class="project-sub">
+                  Raspberry Pi-based system that reads PLC data and reports metrics through a REST API workflow.
+                </p>
+                <ul class="bullets">
+                  <li>Headless service, data sync strategy, automated startup workflow</li>
+                  <li>Industrial integration constraints and reliability focus</li>
+                </ul>
+                <div class="link-row">
+                  <a href="https://github.com/JesseRussell2240/NorbecMaintainXServer" target="_blank" rel="noreferrer">Repo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project">
+              <img src="MM.jpg" alt="Custom multimeter" />
+              <div class="project-body">
                 <h3>Custom Multimeter</h3>
-                <p>Designed and developed a custom multimeter for electronics testing. Features precise measurement capabilities and ease of use for various testing conditions.</p>
-            </div>
-        </div>
-        <div class="project">
-            <img src="Rover.jpg" alt="Omni Directional Rover" class="project-image">
-            <div class="project-info">
-                <h3>Omni Directional Rover</h3>
-                <p>Designed and developed a custom power and control board. Programmed R-Pi and Arm Cortex M4 microcontroller to control a 5-DOF arm on an omnidirectional base. Computed inverse kinematics and displayed real-time simulation via ROS.</p>
-            </div>
-        </div>
-        <div class="project">
-            <img src="AudioAmp.jpg" alt="Class AB Audio Amplifier" class="project-image">
-            <div class="project-info">
+                <p class="project-sub">
+                  Designed and built a multimeter for electronics testing, focused on practical usability and accuracy.
+                </p>
+              </div>
+            </article>
+
+            <article class="project">
+              <img src="AudioAmp.jpg" alt="Class AB audio amplifier" />
+              <div class="project-body">
                 <h3>Class AB Audio Amplifier</h3>
-                <p>Built and fine-tuned a high-quality Class AB audio amplifier for personal use, balancing sound clarity and power efficiency with precision circuitry.</p>
-            </div>
+                <p class="project-sub">
+                  Built and tuned a Class AB amplifier balancing sound clarity, power efficiency, and stable circuitry.
+                </p>
+              </div>
+            </article>
+
+            <article class="project">
+              <img src="1971-911.jpg" alt="Classic car restoration" />
+              <div class="project-body">
+                <h3>Classic Car Restoration</h3>
+                <p class="project-sub">
+                  Mechanical restoration work: rebuilding components, diagnosing issues, and bringing systems back to life.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <p class="note">
+            Tip: Add more project images by dropping files into the repo root and referencing them like <code>img src="your-image.jpg"</code>.
+          </p>
         </div>
-    </div>
-</section>
+      </section>
 
-
-    <section id="gallery">
+      <section id="contact" class="section">
         <div class="container">
-            <h2>Gallery</h2>
-            <div class="gallery-item">
-                <img src="gallery1.jpg" alt="Gallery Item 1" class="gallery-image">
-                <div class="gallery-info">
-                    <h3>Gallery Item 1</h3>
-                    <p>Short description of the work or project shown in the image.</p>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <img src="gallery2.jpg" alt="Gallery Item 2" class="gallery-image">
-                <div class="gallery-info">
-                    <h3>Gallery Item 2</h3>
-                    <p>Short description of the work or project shown in the image.</p>
-                </div>
-            </div>
-            <!-- Add more gallery items as needed -->
+          <h2>Contact</h2>
+          <div class="card">
+            <p>
+              Email: <a href="mailto:JessRuss256@gmail.com">JessRuss256@gmail.com</a>
+            </p>
+            <p>
+              LinkedIn:
+              <a href="https://www.linkedin.com/in/jesse-your-next-engineer" target="_blank" rel="noreferrer">
+                www.linkedin.com/in/jesse-your-next-engineer
+              </a>
+            </p>
+            <p>
+              GitHub:
+              <a href="https://github.com/JesseRussell2240" target="_blank" rel="noreferrer">
+                github.com/JesseRussell2240
+              </a>
+            </p>
+          </div>
         </div>
-    </section>
+      </section>
+    </main>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>If you'd like to get in touch, feel free to email me at <a href="mailto:JessRuss256@gmail.com">JessRuss256@gmail.com</a>.</p>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Jesse Russell. All rights reserved.</p>
-        </div>
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Jesse Russell. All rights reserved.</p>
+      </div>
     </footer>
 
-    <script src="script.js"></script>
-</body>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
